@@ -14,6 +14,7 @@ namespace ConsoleApp_Presentation
             _projectService = projectService;
         }
 
+        // Detta är alla alternativ i menyn
         public async Task MenuOptions()
         {
             while (true)
@@ -73,6 +74,8 @@ namespace ConsoleApp_Presentation
             }
         }
 
+
+        
         private async Task CreateNewCustomer()
         {
 
